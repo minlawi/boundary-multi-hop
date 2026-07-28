@@ -1,0 +1,13 @@
+aws_region  = "ap-southeast-1"
+environment = "staging"
+
+# CIDR block allowed to SSH into bastion host
+# For security, restrict this to your IP address or VPN CIDR
+
+allowed_ssh_cidr        = "0.0.0.0/0"
+hcp_boundary_cluster_id = "your-hcp-boundary-cluster-id"
+hcp_worker_cidr         = "0.0.0.0/0"
+instance_type           = "t3.micro"
+
+intermediary_worker_ami_id = "ami-id-created-by-packer"
+egress_worker_ami_id = "ami-id-created-by-packer"
