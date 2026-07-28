@@ -45,7 +45,7 @@ A complete setup for running HashiCorp Boundary workers with multi-hop security 
 
 This setup creates two connected networks (VPCs) with Boundary workers providing multi-hop access to isolated targets.
 
-![Boundary Multi-Hop Architecture](../boundary-multi-hop.jpeg)
+![Boundary Multi-Hop Architecture](./boundary-multi-hop.jpeg)
 
 ### Components Explained
 
