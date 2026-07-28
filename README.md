@@ -15,14 +15,6 @@ A complete setup for running HashiCorp Boundary workers with multi-hop security 
 | **Server sprawl** | SSH directly to every server | Workers route traffic centrally |
 | **Credential management** | Passwords/keys scattered | Credentials injected at session time |
 
-### What Boundary Does Differently
-
-```
-Traditional SSH:             Boundary:
-You ──SSH──→ Server         You ──Boundary──→ Worker ──SSH──→ Server
-↓                              ↓
-Key stays on laptop            No keys, just authentication
-```
 
 **Think of Boundary as:**
 - A secure gatekeeper for your servers
